@@ -14,3 +14,5 @@ def get_user(user_id):
     return jsonify(user_data), 200
 if __name__ == "__main__":
     app.run(debug=True)
+
+    #api calling on - http://127.0.0.1:5000/get-user/123
